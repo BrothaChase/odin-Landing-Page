@@ -22,9 +22,9 @@ font-weight:bold;
 
 .hero-text {
     background:#1F2937;
-    padding:100px;
+    padding:70px;
     display:flex;
-    justify-content:flex-start;
+    justify-content:center;
     align-items:center;
 
   
@@ -35,21 +35,21 @@ font-weight:bold;
     font-weight:bold;
     display:flex;
     flex-direction:column;
-    justify-content:center;
     align-items:flex-start;
     width:500px;
-    height:300px;
+    height:300x;
 
 }
 
 .hero-image {
+    outline: 3px solid red;
     background:gray;
     height: 300px;
     width: 700px;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:50px;
+    margin: 50px;
 }
 
 .button {
@@ -74,7 +74,7 @@ p {
 
 h1, p {
     margin:0;
-    margin-bottom:15px;
+    margin-bottom:15px; /*removes ghost margins from h1 and p elements*/ 
 }
 
 ul, li {
